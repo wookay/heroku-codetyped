@@ -11,7 +11,7 @@ heroku-codetyped
 ```sh
 λ ~/work/heroku-codetyped $ heroku buildpacks
 === sevenstars Buildpack URL
-https://github.com/wookay/heroku-buildpack-julia-07
+https://github.com/wookay/heroku-buildpack-julia-latest
 
 λ ~/work/heroku-codetyped $ git push heroku master
 ```
