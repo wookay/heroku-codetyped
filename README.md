@@ -1,6 +1,11 @@
-## heroku-codetyped
+heroku-codetyped
+================
 
-* follow https://github.com/wookay/heroku-sevenstars
+* Go to the demo site => https://codetyped.herokuapp.com/
+
+------------------
+
+* see also https://github.com/wookay/heroku-sevenstars
 
 
 ```sh
