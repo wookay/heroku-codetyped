@@ -1,14 +1,9 @@
 using Pkg
-Pkg.clone("https://github.com/wookay/Bukdu.jl.git")
-Pkg.checkout("HTTP", "master")
-Pkg.checkout("Bukdu", "sevenstars")
-
-Pkg.add("Millboard")
-Pkg.checkout("Millboard", "master")
-
-Pkg.add("Documenter")
-Pkg.add("AbstractTrees")
-
-Pkg.clone("https://github.com/wookay/DataLogger.jl")
-Pkg.clone("https://github.com/wookay/Poptart.jl")
+Pkg.REPLMode.pkgstr("add HTTP#master")
+Pkg.REPLMode.pkgstr("add https://github.com/wookay/Bukdu.jl.git#sevenstars")
+Pkg.REPLMode.pkgstr("add https://github.com/wookay/Millboard.jl.git#master")
+Pkg.REPLMode.pkgstr("add Documenter#master")
+Pkg.REPLMode.pkgstr("add AbstractTrees#master")
+Pkg.REPLMode.pkgstr("add https://github.com/wookay/DataLogger.jl#master")
+Pkg.REPLMode.pkgstr("add https://github.com/wookay/Poptart.jl#master")
 using Bukdu
