@@ -26,4 +26,3 @@ https://github.com/wookay/heroku-buildpack-julia-latest
 ```
 
 * see also https://github.com/wookay/heroku-sevenstars
-
